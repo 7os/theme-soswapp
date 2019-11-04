@@ -1,0 +1,25 @@
+{
+    "name": "7os/web-theme",
+    "description": "7 OS Web - Theming app",
+    "keywords": ["css", "javascript","7","seven","os","web","theme"],
+    "homepage": "https://github.com/7os/web-theme",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ikechukwu Okalia",
+            "email": "me@sirlouis.io"
+        },
+        {
+            "name": "Tym Frontiers Ltd.",
+            "email": "dev@tymfrontiers.com"
+        }
+    ],
+    "require": {
+      "7os/js-generic" : ">=0.1@stable"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {}
+    }
+}

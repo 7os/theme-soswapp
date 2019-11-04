@@ -1,0 +1,13 @@
+{
+  "name" : "7os/web-theme",
+  "description" : "7 OS Web - Theming app",
+  "homepage" : "https://github.com/7os/web-theme",
+  "support" : {
+    "email" : "dev@tymfrontiers.com",
+    "website" : "https://tymfrontiers.com",
+    "kollabo" : "@tymfrontiers",
+    "twitter" : "@tymfrontiers",
+    "facebook" : "@tymfrontiers",
+    "istagram" : "@tymfrontiers"
+  }
+}
