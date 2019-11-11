@@ -1,4 +1,4 @@
-/*! 7OS -Web theme: https://github.com/7os/web-theme */
+/*! 7OS -Web theme: https://github.com/7os/theme-soswapp */
 
 // dnav = {
 //   top : 0, // CSS initial top

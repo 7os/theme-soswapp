@@ -1,8 +1,8 @@
 {
-    "name": "7os/web-theme",
+    "name": "7os/theme-soswapp",
     "description": "7 OS Web - Theming app",
     "keywords": ["css", "javascript","7","seven","os","web","theme"],
-    "homepage": "https://github.com/7os/web-theme",
+    "homepage": "https://github.com/7os/theme-soswapp",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -16,7 +16,7 @@
         }
     ],
     "require": {
-      "7os/js-generic" : ">=0.1@stable"
+      "7os/js-generic-soswapp" : ">=0.1@stable"
     },
     "require-dev": {},
     "autoload": {
