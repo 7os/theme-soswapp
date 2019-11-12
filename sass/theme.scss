@@ -1,4 +1,4 @@
-/*! 7OS -Web theme: https://github.com/7os/web-theme */
+/*! 7OS -Web theme: https://github.com/7os/theme-soswapp */
 
 @import "var";
 @import "reset";
@@ -58,13 +58,15 @@
   &.dark{
     background-color: $gray;
     color: #fff;
-    :hover {
+    &:visited{ color: #fff !important; }
+    &:hover {
       background-color: darken($gray,3%);
     }
   }
   &.black {
     background-color: lighten(#000,25%);
     color: #fff;
+    &:visited{ color: #fff !important; }
     &:hover {
       background-color: #000;
     }
@@ -72,6 +74,7 @@
   &.white {
     background-color: lighten($silver,12%);
     color: #000;
+    &:visited{ color: #000 !important; }
     &:hover {
       background-color: #fff;
     }
@@ -79,6 +82,7 @@
   &.asphalt {
     background-color: $asphalt;
     color: #fff;
+    &:visited{ color: #fff !important; }
     &:hover {
       background-color: darken($asphalt,3%);
     }
@@ -86,6 +90,7 @@
   &.facebook {
     background-color: $facebook;
     color: #fff;
+    &:visited{ color: #fff !important; }
     &:hover {
       background-color: darken($facebook,3%);
     }
@@ -93,6 +98,7 @@
   &.twitter {
     background-color: $twitter;
     color: #fff;
+    &:visited{ color: #fff !important; }
     &:hover {
       background-color: darken($twitter,3%);
     }
@@ -100,6 +106,7 @@
   &.googleplus {
     background-color: $googleplus;
     color: #fff;
+    &:visited{ color: #fff !important; }
     &:hover {
       background-color: darken($googleplus,3%);
     }
@@ -107,6 +114,7 @@
   &.vimeo {
     background-color: $vimeo;
     color: #fff;
+    &:visited{ color: #fff !important; }
     &:hover {
       background-color: darken($vimeo,3%);
     }
@@ -114,6 +122,7 @@
   &.red{
     color: #fff;
     background-color: $red;
+    &:visited{ color: #fff !important; }
     &:hover {
       background-color: darken($red,3%);
     }
@@ -121,6 +130,7 @@
   &.blue{
     color: #fff;
     background-color: $blue;
+    &:visited{ color: #fff !important; }
     &:hover {
       background-color: darken($blue,3%);
     }
@@ -128,6 +138,7 @@
   &.green{
     color: #fff;
     background-color: $green;
+    &:visited{ color: #fff !important; }
     &:hover {
       background-color: darken($green,3%);
     }
@@ -135,6 +146,7 @@
   &.yellow{
     color: #000;
     background-color: $amber;
+    &:visited{ color: #000 !important; }
     &:hover {
       background-color: darken($amber,3%);
     }
@@ -142,6 +154,7 @@
   &.gold{
     color: #000;
     background-color: $rose-gold;
+    &:visited{ color: #000 !important; }
     &:hover {
       background-color: darken($rose-gold,3%);
     }
