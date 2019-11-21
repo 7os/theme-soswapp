@@ -9369,10 +9369,10 @@ table {
   width: 100%;
 }
 table tr:nth-of-type(odd) {
-  background: #bac0c5;
+  background: rgba(0, 0, 0, 0.3);
 }
 table tr:hover {
-  background: #a7afb4;
+  background: rgba(0, 0, 0, 0.6);
 }
 table.vertical thead, table.vertical tbody {
   position: relative;

@@ -1178,8 +1178,8 @@ form.block-ui, .form.block-ui{
 }
 table{
   width: 100%;
-  tr:nth-of-type(odd){ background: darken($silver, 1%);; }
-  tr:hover{ background: darken($silver, 8%);}
+  tr:nth-of-type(odd){ background: rgba(#000, 0.3); }
+  tr:hover{ background: rgba(#000, 0.6);}
 
   &.vertical{
     thead, tbody{  position: relative;}
