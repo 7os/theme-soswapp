@@ -213,7 +213,13 @@ input.hidden{
   visibility: hidden;
 }
 
-
+.ff-open-sans{ font-family: "Open Sans" !important; }
+.ff-sans-serif{ font-family: sans-serif !important; }
+.ff-cursive{ font-family: cursive !important; }
+.ff-fantasy{ font-family: fantasy !important; }
+.ff-monospace{ font-family: monospace !important; }
+.ff-serif{ font-family: serif !important; }
+.ff-inherit{ font-family: inherit !important; }
 .alert, .sos.alert{
   display: block;
   position: relative;
@@ -1177,8 +1183,8 @@ form.block-ui, .form.block-ui{
 }
 table{
   width: 100%;
-  tr:nth-of-type(odd){ background: rgba(#000, 0.3); }
-  tr:hover{ background: rgba(#000, 0.6);}
+  tr:nth-of-type(odd){ background: rgba(#000, 0.1); }
+  tr:hover{ background: rgba(#000, 0.2);}
 
   &.vertical{
     thead, tbody{  position: relative;}

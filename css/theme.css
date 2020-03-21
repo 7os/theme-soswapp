@@ -1781,6 +1781,34 @@ input.hidden {
   visibility: hidden;
 }
 
+.ff-open-sans {
+  font-family: "Open Sans" !important;
+}
+
+.ff-sans-serif {
+  font-family: sans-serif !important;
+}
+
+.ff-cursive {
+  font-family: cursive !important;
+}
+
+.ff-fantasy {
+  font-family: fantasy !important;
+}
+
+.ff-monospace {
+  font-family: monospace !important;
+}
+
+.ff-serif {
+  font-family: serif !important;
+}
+
+.ff-inherit {
+  font-family: inherit !important;
+}
+
 .alert, .sos.alert {
   display: block;
   position: relative;
@@ -3548,10 +3576,10 @@ table {
   width: 100%;
 }
 table tr:nth-of-type(odd) {
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.1);
 }
 table tr:hover {
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.2);
 }
 table.vertical thead, table.vertical tbody {
   position: relative;
