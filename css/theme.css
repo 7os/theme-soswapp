@@ -2681,6 +2681,46 @@ input.hidden {
   content: "";
 }
 
+.bg-white {
+  background-color: #ffffff !important;
+  color: #1a1a1a;
+}
+
+.bg-grey {
+  background-color: #9E9E9E !important;
+  color: white;
+}
+
+.bg-silver {
+  background-color: #bdc3c7 !important;
+  color: black;
+}
+
+.bg-dark-silver {
+  background-color: #aab1b7 !important;
+  color: black;
+}
+
+.bg-asphalt {
+  background-color: #34495e !important;
+  color: #FFF;
+}
+
+.bg-blue {
+  background-color: #2196F3;
+  color: white;
+}
+
+.bg-red {
+  background-color: #F44336;
+  color: white;
+}
+
+.bg-asphalt {
+  background-color: #34495e;
+  color: white;
+}
+
 .autosize {
   resize: vertical;
 }

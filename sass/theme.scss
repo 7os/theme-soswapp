@@ -848,6 +848,14 @@ input.hidden{
   }
 
 }
+.bg-white{ background-color: #ffffff !important; color: lighten(#000, 10%); }
+.bg-grey{ background-color: $grey !important; color: white; }
+.bg-silver{ background-color: $silver !important; color: black; }
+.bg-dark-silver{ background-color: darken($silver,7%) !important; color: black; }
+.bg-asphalt{ background-color: $asphalt !important; color: #FFF; }
+.bg-blue{ background-color: $blue; color: white; }
+.bg-red{ background-color: $red; color: white; }
+.bg-asphalt{ background-color: $asphalt; color: white; }
 .autosize{	resize: vertical; }
 form, .form{
   display: block;
